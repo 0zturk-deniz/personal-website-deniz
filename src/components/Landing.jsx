@@ -11,8 +11,8 @@ export default function Landing() {
             <h1 className="font-inter text-6xl font-semibold text-[#CBF281]">I am a Frontend <br/>Developer...</h1>
             <p className="font-inter text-2xl text-white">...who likes to craft solid and scalable frontend <br/>products with great user experiences.</p>
             <div className="flex flex-row justify-center gap-4">
-            <button className="bg-white px-6 py-3 text-[#4731D3] font-inter rounded flex flex-row"><FaGithub className="text-xl"/>Github</button>
-            <button className="bg-white px-6 py-3 text-[#4731D3] font-inter rounded flex flex-row"><FaLinkedin className="text-xl"/>Linkedin</button>
+                <a href="https://github.com/0zturk-deniz" target="_blank" rel="noopener noreferrer" className="bg-white px-6 py-3 text-[#4731D3] font-inter rounded flex flex-row"><FaGithub className="text-xl"/>Github</a>
+                <a href="https://www.linkedin.com/in/ozturkdeniz/" target="_blank" rel="noopener noreferrer" className="bg-white px-6 py-3 text-[#4731D3] font-inter rounded flex flex-row"><FaLinkedin className="text-xl"/>Linkedin</a>
             </div>
             </div>
             
