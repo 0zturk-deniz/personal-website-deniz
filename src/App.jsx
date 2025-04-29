@@ -1,5 +1,10 @@
 import './App.css'
+import Footer from './components/Footer'
+import Header from './components/Header'
 import Landing from './components/Landing'
+import Profile from './components/Profile'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
 import "./index.css"
 
 function App() {
@@ -7,8 +12,12 @@ function App() {
 
   return (
     <>
+    <Header/>
     <Landing/>
-      <h1 className='text-xl text-blue-500 bg-red-800'>ALLAH AŞKINA TAILWIND ÇALIŞIYOR MU NOLUR😮‍💨</h1>
+    <Skills/>
+    <Profile/>
+    <Projects/>
+    <Footer/>
     </>
   )
 }
