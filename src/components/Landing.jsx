@@ -1,4 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa"
+import denizozturkprofile from '../assets/denizozturkprofile.jpeg';
+
 export default function Landing() {
     return (
         <>
@@ -12,7 +14,9 @@ export default function Landing() {
             </div>
             
             </div>
-            <div className="w-1/3 px-4 bg-[#CBF281]"></div>
+            <div className="w-1/3 px-4 bg-[#CBF281]">
+            <img src={denizozturkprofile} alt="deniz ozturk profile photo" className="rounded-lg w-80 aspect-square object-cover"/>
+            </div>
             </section>
         </>
 
