@@ -17,7 +17,7 @@ export default function Landing() {
             </div>
             
             <div className="w-1/3 bg-[#CBF281]">
-            <img src={denizozturkprofile} alt="deniz ozturk profile photo" className="rounded-lg w-80 aspect-square ml-[-150px] m-32 object-cover"/>
+            <img src={denizozturkprofile} alt="deniz ozturk profile photo" className="rounded-xl w-80 aspect-square ml-[-150px] m-32 object-cover"/>
             </div>
             
             

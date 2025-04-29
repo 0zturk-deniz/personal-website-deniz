@@ -13,14 +13,14 @@ export default function Header () {
             <button 
             onClick={() => setDarkMode(!darkMode)}
             className={`w-14 h-6 flex items-center rounded-full p-1 duration-300 ease-in-out
-              ${darkMode ? "bg-[#8F88FF]" : "bg-[#3A3A3A]"}`}
+              ${darkMode ? "bg-[#3A3A3A]" : "bg-[#8F88FF]" }`}
           >
             <div
               className={`bg-[#FFE86E] w-4 h-4 rounded-full shadow-md transform duration-300 ease-in-out
-                ${darkMode ? "translate-x-8" : "translate-x-0"}`}
+                ${darkMode ? "translate-x-0" : "translate-x-8"}`}
             ></div>
           </button>
-           <p className="font-inter font-semibold text-[#4731D3] pt-0,5">{darkMode ? "DARK MODE" : "LIGHT MODE"}</p>
+           <p className={`font-inter font-semibold pt-0,5 ${darkMode ? "text-[#D9D9D9]" : "text-[#4731D3]"}`}>{darkMode ? "LIGHT MODE" : "DARK MODE"}</p>
            </div> 
            </div>
            
