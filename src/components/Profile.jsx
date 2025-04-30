@@ -1,4 +1,4 @@
-import denizozturkprofile from '../assets/denizozturkprofile.jpeg';
+import denizozturkprofile2 from '../assets/denizozturkprofile2.jpeg';
 
 export default function Profile() {
   return (
@@ -32,7 +32,7 @@ export default function Profile() {
         
         <div>
           <img
-            src={denizozturkprofile}
+            src={denizozturkprofile2}
             alt="deniz ozturk profile photo"
             className="rounded-xl w-72 aspect-square object-cover"
           />
