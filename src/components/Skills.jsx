@@ -10,7 +10,7 @@ export default function Skills() {
     return (
         <section className='flex flex-row w-max h-max px-40 py-20'>
             <div>
-                <h1 className="font-inter text-6xl font-semibold text-[#4731D3]">Skills</h1>
+                <h1 className="font-inter text-5xl font-semibold text-[#4731D3]">Skills</h1>
             </div>
             <div className="grid grid-rows-3 grid-cols-2 gap-8 pl-32">
                 <div className='flex flex-row items-center gap-6'>
