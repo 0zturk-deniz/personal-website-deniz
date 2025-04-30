@@ -25,7 +25,7 @@ export default function Projects() {
                             <p className='rounded-full w-[70px] h-[30px] bg-[#4731D3] text-white text-sm font-light flex items-center justify-center'>vercel</p> 
                             </div>
 
-                            <div className='flex flex-row gap-14'>
+                            <div className='flex flex-row gap-8'>
                             <a href="/" target="_blank" rel="noopener noreferrer" className='block underline font-inter mt-6'>View Site</a>  
                             <a href="/" target="_blank" rel="noopener noreferrer" className='block underline font-inter mt-6'>Github</a>      
                             </div>
@@ -54,7 +54,7 @@ export default function Projects() {
                             <p className='rounded-full w-[70px] h-[30px] bg-[#4731D3] text-white text-sm font-light flex items-center justify-center'>vercel</p> 
                             </div>
 
-                            <div className='flex flex-row gap-14'>
+                            <div className='flex flex-row gap-8'>
                             <a href="/" target="_blank" rel="noopener noreferrer" className='block underline font-inter mt-6'>View Site</a>  
                             <a href="/" target="_blank" rel="noopener noreferrer" className='block underline font-inter mt-6'>Github</a>      
                             </div>
