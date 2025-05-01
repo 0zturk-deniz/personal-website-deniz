@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
@@ -8,17 +9,19 @@ import Skills from './components/Skills'
 import "./index.css"
 
 function App() {
-  
+  const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <>
-    <Header/>
+    <div className={darkMode ? "dark" : ""}>
+      
+    <Header darkMode={darkMode} setDarkMode = {setDarkMode} />
     <Landing/>
     <Skills/>
     <Profile/>
     <Projects/>
     <Footer/>
-    </>
+    
+    </div>
   )
 }
 

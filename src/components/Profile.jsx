@@ -2,7 +2,7 @@ import denizozturkprofile2 from '../assets/denizozturkprofile2.jpeg';
 
 export default function Profile() {
   return (
-    <section className="h-max bg-[#4731D3] px-40 py-20 font-inter">
+    <section className="dark:bg-[#171043] h-max bg-[#4731D3] px-40 py-20 font-inter">
       
       <h1 className="text-5xl font-semibold text-[#CBF281] mb-10">Profile</h1>
 

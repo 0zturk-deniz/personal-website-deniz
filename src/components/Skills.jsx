@@ -8,7 +8,7 @@ import iconFigma from '../assets/figma-icon.png';
 
 export default function Skills() {
     return (
-        <section className='flex flex-row w-max h-max px-40 py-20'>
+        <section className='dark:bg-[#252128] flex flex-row w-full h-max px-40 py-20'>
             <div>
                 <h1 className="font-inter text-5xl font-semibold text-[#4731D3]">Skills</h1>
             </div>
