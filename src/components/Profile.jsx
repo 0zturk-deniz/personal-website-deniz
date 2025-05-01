@@ -1,31 +1,29 @@
 import denizozturkprofile2 from '../assets/denizozturkprofile2.jpeg';
 
-export default function Profile() {
+export default function Profile({content}) {
   return (
     <section className="dark:bg-[#171043] h-max bg-[#4731D3] px-40 py-20 font-inter">
       
-      <h1 className="text-5xl font-semibold text-[#CBF281] mb-10">Profile</h1>
+      <h1 className="text-5xl font-semibold text-[#CBF281] mb-10">{content.title}</h1>
 
       <div className="flex flex-row gap-20">
     
         <div className="flex flex-col gap-3">
-          <h2 className="text-2xl text-white mb-4">Basic Information</h2>
+          <h2 className="text-2xl text-white mb-4">{content.infoTitle}</h2>
 
           <div className="grid grid-cols-[90px_1fr] gap-y-4 text-sm text-white">
-            <p className="text-[#CBF281] font-semibold">Birthday</p>
-            <p className="font-light">14.03.1990</p>
+            <p className="text-[#CBF281] font-semibold">{content.info.birthday.label}</p>
+            <p className="font-light">{content.info.birthday.value}</p>
 
-            <p className="text-[#CBF281] font-semibold">Residency</p>
-            <p className="font-light">İstanbul</p>
+            <p className="text-[#CBF281] font-semibold">{content.info.residency.label}</p>
+            <p className="font-light">{content.info.residency.value}</p>
 
-            <p className="text-[#CBF281] font-semibold">Education</p>
-            <div>
-              <p className="font-light">Mimar Sinan Fine Arts University</p>
-              <p className="font-light">Urban Planning Master's, 2018</p>
-            </div>
+            <p className="text-[#CBF281] font-semibold">{content.info.education.label}</p>
+            <p className="font-light">{content.info.education.value}</p>
+                         
 
-            <p className="text-[#CBF281] font-semibold">Preferred<br />Role</p>
-            <p className="font-light">Frontend, UI, Tester</p>
+            <p className="text-[#CBF281] font-semibold">{content.info.role.label}</p>
+            <p className="font-light">{content.info.role.value}</p>
           </div>
         </div>
 
@@ -39,8 +37,8 @@ export default function Profile() {
         </div>
           
         <div className='w-72'>
-        <p className="text-2xl text-white mb-4">About Me</p>
-            <p className="font-light text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!</p>
+        <p className="text-2xl text-white mb-4">{content.aboutTitle}</p>
+            <p className="font-light text-white">{content.aboutDesc}</p>
           </div>
         
       </div>

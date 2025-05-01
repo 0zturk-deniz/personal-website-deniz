@@ -13,7 +13,6 @@ function App() {
   const [darkMode, setDarkMode] = useLocalStorage("darkMode", false);
   const [language, setLanguage] = useLocalStorage("language", "en");
   const langData = content[language];
-  console.log("LANGUAGE:", language, "→ LANGDATA:", langData);
 
   return (
     <div className={darkMode ? "dark" : ""}>

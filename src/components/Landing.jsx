@@ -1,15 +1,15 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 import denizozturkprofile from '../assets/denizozturkprofile.jpeg';
 
-export default function Landing() {
+export default function Landing({content}) {
     return (
         <>
         <section className="flex justify-center h-100">
             
             <div className="dark:bg-[#171043] w-2/3 bg-[#4731D3] flex flex-col justify-center items-start p-40 gap-6">
 
-            <h1 className="font-inter text-5xl font-semibold text-[#CBF281]">I am a Frontend <br/>Developer...</h1>
-            <p className="font-inter text-xl font-light text-white">...who likes to craft solid and scalable frontend <br/>products with great user experiences.</p>
+            <h1 className="font-inter text-5xl font-semibold text-[#CBF281]">{content.title}</h1>
+            <p className="font-inter text-xl font-light text-white">{content.desc}</p>
             <div className="flex flex-row justify-center gap-4">
                 <a href="https://github.com/0zturk-deniz" target="_blank" rel="noopener noreferrer" className="dark:bg-[#252128] dark:text-white dark:border dark:border-white bg-white px-6 py-3 text-[#4731D3] font-inter rounded flex flex-row"><FaGithub className="text-xl"/>Github</a>
                 <a href="https://www.linkedin.com/in/ozturkdeniz/" target="_blank" rel="noopener noreferrer" className="dark:bg-[#252128] dark:text-white dark:border dark:border-white bg-white px-6 py-3 text-[#4731D3] font-inter rounded flex flex-row"><FaLinkedin className="text-xl"/>Linkedin</a>

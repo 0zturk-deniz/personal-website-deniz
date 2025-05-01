@@ -36,30 +36,33 @@ export const content = {
             aboutTitle: "About Me",
             aboutDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
         },
-        projects: [
-             {
-                    id: 1,
-                    title: "Pizza Project",
-                    desc:  "A customizable cookie plugin built with vanilla JS, SCSS and Parcel Bundler.",
-                    image: projects1,
-                    tags: ["react", "redux", "vercel"],
-                    links: {
-                        site: "/",
-                        github:"/",
-                    },
-                },
+        projects: {
+            title: "Projects",
+            list: [
                 {
-                    id: 2,
-                    title: "Portfolio Website",
-                    desc:  "A customizable cookie plugin built with vanilla JS, SCSS and Parcel Bundler.",
-                    image: projects2,
-                    tags: ["react", "redux", "vercel"],
-                    links: {
-                        site: "/",
-                        github:"/",
-                    },
-                }
-        ],
+                       id: 1,
+                       title: "Pizza Project",
+                       desc:  "A customizable cookie plugin built with vanilla JS, SCSS and Parcel Bundler.",
+                       image: projects1,
+                       tags: ["react", "redux", "vercel"],
+                       links: {
+                           site: "/",
+                           github:"/",
+                       },
+                   },
+                   {
+                       id: 2,
+                       title: "Portfolio Website",
+                       desc:  "A customizable cookie plugin built with vanilla JS, SCSS and Parcel Bundler.",
+                       image: projects2,
+                       tags: ["react", "redux", "vercel"],
+                       links: {
+                           site: "/",
+                           github:"/",
+                       },
+                   }
+           ],
+        },
         footer: {
             title: "Send me a message!",
             desc: "Got a question or proposal, or just want to say hello? Go ahead.",
@@ -100,22 +103,27 @@ export const content = {
             aboutTitle: "Hakkımda",
             aboutDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
         },
-        projects: [
-            {
-                title: "Pizza Projesi",
-                desc: "Vanilla JS, SCSS ve Parcel kullanılarak oluşturulmuş özelleştirilebilir çerez eklentisi.",
-                image: projects1,
-                tags: ["react", "redux", "vercel"],
-                links: { site: "/", github: "/" }
-              },
-              {
-                title: "Portfolyo Sitesi",
-                desc: "Karanlık mod ve çok dilli desteğe sahip kişisel responsive web sitesi.",
-                image: projects2,
-                tags: ["react", "redux", "vercel"],
-                links: { site: "/", github: "/" }
-              }
-        ],
+        projects: {
+            title: "Projeler",
+            list: [
+                {
+                    id: 1,
+                    title: "Pizza Projesi",
+                    desc: "Vanilla JS, SCSS ve Parcel kullanılarak oluşturulmuş özelleştirilebilir çerez eklentisi.",
+                    image: projects1,
+                    tags: ["react", "redux", "vercel"],
+                    links: { site: "/", github: "/" }
+                  },
+                  {
+                    id: 2,
+                    title: "Portfolyo Sitesi",
+                    desc: "Karanlık mod ve çok dilli desteğe sahip kişisel responsive web sitesi.",
+                    image: projects2,
+                    tags: ["react", "redux", "vercel"],
+                    links: { site: "/", github: "/" }
+                  }
+            ],
+        },
         footer: {
             title: "Bana bir mesaj gönder!",
             desc: "Bir sorunuz ya da öneriniz mi var? Veya sadece merhaba demek mi istediniz? Buyrun.",
