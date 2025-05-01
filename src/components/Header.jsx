@@ -1,5 +1,4 @@
-
-export default function Header ({darkMode, setDarkMode, language, setLanguage}) {
+export default function Header ({darkMode, setDarkMode, language, setLanguage, content}) {
     return (
         <header className="flex flex-row justify-between">
             <div className="dark:bg-[#171043] w-2/3 bg-[#4731D3] flex flex-col justify-center items-start gap-15 ">
@@ -8,7 +7,7 @@ export default function Header ({darkMode, setDarkMode, language, setLanguage}) 
             <div className="dark:bg-[#211F0B] w-1/3 bg-[#CBF281]">
             <div className="flex flew-row gap-4 ml-[-160px] p-6">
             <button onClick={()=> setLanguage(language === "tr" ? "en" : "tr")} 
-            className="font-inter font-semibold text-[#CBF281] dark:text-[#BAB2E7]">{language === "tr" ? "SWITCH TO ENGLISH" : "TÜRKÇE'YE GEÇ"}</button>
+            className="font-inter font-semibold text-[#CBF281] dark:text-[#BAB2E7]">{content.langToggle}</button>
             <button 
             onClick={() => setDarkMode(!darkMode)}
             className={`w-14 h-6 flex items-center rounded-full p-1 duration-300 ease-in-out
@@ -19,7 +18,7 @@ export default function Header ({darkMode, setDarkMode, language, setLanguage}) 
                 ${darkMode ? "translate-x-0" : "translate-x-8"}`}
             ></div>
           </button>
-           <p className={`font-inter font-semibold pt-0,5 ${darkMode ? "text-[#D9D9D9]" : "text-[#4731D3]"}`}>{darkMode ? "LIGHT MODE" : "DARK MODE"}</p>
+           <p className={`font-inter font-semibold pt-0,5 ${darkMode ? "text-[#D9D9D9]" : "text-[#4731D3]"}`}>{darkMode ? content.modeAlt : content.mode}</p>
            </div> 
            </div>
            

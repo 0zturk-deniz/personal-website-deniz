@@ -1,22 +1,125 @@
-import Skills from "../components/Skills";
+import projects1 from "../assets/projects1.jpg";
+import projects2 from "../assets/projects2.jpg";
 
 export const content = {
     en: {
         header: {
             langToggle: "TÜRKÇE'YE GEÇ",
             mode: "DARK MODE",
-            
+            modeAlt: "LIGHT MODE",
         },
-        landing: {},
-        profile: {},
-        projects: {},
-        footer: {}
+        landing: {
+            title: "I am a Frontend Developer...",
+            desc: "...who likes to craft solid and scalable frontend products with great user experiences.",
+        },
+        profile: {
+            title: "Profile",
+            infoTitle: "Basic Information",
+            info: {
+                birthday: {
+                  label: "Birthday",
+                  value: "14.03.1990"
+                },
+                residency: {
+                  label: "Residency",
+                  value: "Istanbul"
+                },
+                education: {
+                  label: "Education",
+                  value: "Mimar Sinan Fine Arts University Urban Planning Master's, 2018"
+                },
+                role: {
+                  label: "Preferred Role",
+                  value: "Frontend, UI, Tester"
+                }
+              },
+            aboutTitle: "About Me",
+            aboutDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+        },
+        projects: [
+             {
+                    id: 1,
+                    title: "Pizza Project",
+                    desc:  "A customizable cookie plugin built with vanilla JS, SCSS and Parcel Bundler.",
+                    image: projects1,
+                    tags: ["react", "redux", "vercel"],
+                    links: {
+                        site: "/",
+                        github:"/",
+                    },
+                },
+                {
+                    id: 2,
+                    title: "Portfolio Website",
+                    desc:  "A customizable cookie plugin built with vanilla JS, SCSS and Parcel Bundler.",
+                    image: projects2,
+                    tags: ["react", "redux", "vercel"],
+                    links: {
+                        site: "/",
+                        github:"/",
+                    },
+                }
+        ],
+        footer: {
+            title: "Send me a message!",
+            desc: "Got a question or proposal, or just want to say hello? Go ahead.",
+            email: "ddeniz.ozturkk@gmail.com",
+        }
     },
     tr: {
-        header: {},
-        landing: {},
-        profile: {},
-        projects: {},
-        footer: {}
+        header: {
+            langToggle: "SWITCH TO ENGLISH",
+            mode: "KARANLIK MOD",
+            modeAlt: "AYDINLIK MOD",
+        },
+        landing: {
+            title: "Ben bir Frontend Developer'ım...",
+            desc: "... ve ölçeklenebilir, kullanıcı dostu arayüzler geliştirmeyi seviyorum.",
+        },
+        profile: {
+            title: "Profil",
+            infoTitle: "Temel Bilgiler",
+            info: {
+                birthday: {
+                  label: "Doğum Tarihi",
+                  value: "14.03.1990"
+                },
+                residency: {
+                  label: "İkamet",
+                  value: "İstanbul"
+                },
+                education: {
+                  label: "Eğitim",
+                  value: "Mimar Sinan Güzel Sanatlar Üniversitesi Şehir Planlama Yüksek Lisansı, 2018"
+                },
+                role: {
+                  label: "Tercih Edilen Rol",
+                  value: "Frontend, UI, Tester"
+                }
+              },
+            aboutTitle: "Hakkımda",
+            aboutDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+        },
+        projects: [
+            {
+                title: "Pizza Projesi",
+                desc: "Vanilla JS, SCSS ve Parcel kullanılarak oluşturulmuş özelleştirilebilir çerez eklentisi.",
+                image: projects1,
+                tags: ["react", "redux", "vercel"],
+                links: { site: "/", github: "/" }
+              },
+              {
+                title: "Portfolyo Sitesi",
+                desc: "Karanlık mod ve çok dilli desteğe sahip kişisel responsive web sitesi.",
+                image: projects2,
+                tags: ["react", "redux", "vercel"],
+                links: { site: "/", github: "/" }
+              }
+        ],
+        footer: {
+            title: "Bana bir mesaj gönder!",
+            desc: "Bir sorunuz ya da öneriniz mi var? Veya sadece merhaba demek mi istediniz? Buyrun.",
+            email: "ddeniz.ozturkk@gmail.com",
+        }
     }
 }

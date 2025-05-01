@@ -7,20 +7,23 @@ import Projects from './components/Projects'
 import Skills from './components/Skills'
 import "./index.css"
 import { useLocalStorage } from './hooks/useLocalStorage'
+import {content} from "./data/content"
 
 function App() {
   const [darkMode, setDarkMode] = useLocalStorage("darkMode", false);
   const [language, setLanguage] = useLocalStorage("language", "en");
+  const langData = content[language];
+  console.log("LANGUAGE:", language, "→ LANGDATA:", langData);
 
   return (
     <div className={darkMode ? "dark" : ""}>
       
-    <Header darkMode={darkMode} setDarkMode = {setDarkMode} language={language} setLanguage={setLanguage} />
-    <Landing/>
+    <Header darkMode={darkMode} setDarkMode = {setDarkMode} language={language} setLanguage={setLanguage} content={langData.header}/>
+    <Landing content={langData.landing}/>
     <Skills/>
-    <Profile/>
-    <Projects/>
-    <Footer/>
+    <Profile content={langData.profile}/>
+    <Projects content={langData.projects}/>
+    <Footer content={langData.footer}/>
     
     </div>
   )
