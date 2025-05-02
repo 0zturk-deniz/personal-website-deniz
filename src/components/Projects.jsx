@@ -1,33 +1,38 @@
+import Container from "./Container";
+
 export default function Projects({ content }) {
-    if (!content) return null;
-    
-    return (
-      <section className="dark:bg-[#1a210c] bg-[#CBF281] h-max py-20 px-40 font-inter">
+  console.log("Projects content:", content);
+
+  if (!content) return null;
+
+  return (
+    <section className="dark:bg-[#1a210c] bg-[#CBF281] h-max py-20 font-inter">
+      <Container>
         <h1 className="dark:text-[#CBF281] text-5xl font-semibold text-[#4731D3] mb-10">
           {content.title}
         </h1>
-  
+
         {content.list.map((project) => (
           <div
             key={project.id}
-            className="dark:bg-[#252128] bg-white w-[900px] h-[350px] rounded-xl align-center flex flex-row shadow-2xl mb-12"
+            className="dark:bg-[#252128] bg-white lg:w-[900px] lg:h-[350px] rounded-xl align-center flex flex-row shadow-2xl mb-12"
           >
             <div>
               <img
                 src={project.image}
                 alt={project.title}
-                className="rounded-tl-xl rounded-bl-xl w-[350px] h-full object-cover"
+                className="rounded-tl-xl rounded-bl-xl lg:w-[350px] lg:h-full aspect-square object-cover "
               />
             </div>
-  
+
             <div className="w-72 m-8">
-              <p className="dark:text-[#BAB2E7] text-3xl text-[#4731D3] font-semibold">
+              <p className="dark:text-[#BAB2E7] lg:text-3xl md:text-xl text-[#4731D3] font-semibold">
                 {project.title}
               </p>
-              <p className="dark:text-white font-light text-black w-96 py-4 tracking-tight text-justify leading-snug">
+              <p className="dark:text-white font-light text-black w-96 py-4 tracking-tight text-base leading-relaxed text-justify break-words text-justify md:text-wrap leading-snug">
                 {project.desc}
               </p>
-  
+
               <div className="flex flex-row gap-2">
                 {project.tags.map((tag, index) => (
                   <p
@@ -38,7 +43,7 @@ export default function Projects({ content }) {
                   </p>
                 ))}
               </div>
-  
+
               <div className="flex flex-row gap-8">
                 <a
                   href={project.links.site}
@@ -60,7 +65,7 @@ export default function Projects({ content }) {
             </div>
           </div>
         ))}
-      </section>
-    );
-  }
-  
+      </Container>
+    </section>
+  );
+}
