@@ -1,4 +1,6 @@
 export default function Projects({ content }) {
+    if (!content) return null;
+    
     return (
       <section className="dark:bg-[#1a210c] bg-[#CBF281] h-max py-20 px-40 font-inter">
         <h1 className="dark:text-[#CBF281] text-5xl font-semibold text-[#4731D3] mb-10">
