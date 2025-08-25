@@ -27,11 +27,11 @@
                 },
                 "role": {
                   "label": "Preferred Role",
-                  "value": "Frontend, UI, Tester"
+                  "value": "Frontend, UI, Backend"
                 }
               },
             "aboutTitle": "About Me",
-            "aboutDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit..."
+            "aboutDesc": "After working in spatial design and user experience for years, I decided to integrate this background into software development. I'm currently focusing on HTML, CSS, JavaScript, and React, building clean, user-centered interfaces with an eye for design principles. My goal is to continuously learn, apply best practices, and grow through hands-on projects in frontend development."
         },
        " projects": {
             "title": "Projects",
@@ -98,7 +98,7 @@
                 }
               },
             "aboutTitle": "Hakkımda",
-            "aboutDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit..."
+            "aboutDesc": "Mekân ve kullanıcı deneyimi üzerine çalıştığım yılların ardından, bu deneyimi yazılımla birleştirmeye karar verdim. Şu anda HTML, CSS, JavaScript ve React üzerine yoğunlaşarak frontend geliştirme alanında kendimi geliştiriyorum. Tasarım prensiplerine hâkimiyetimi kodlamaya taşıyor, kullanıcı odaklı, temiz ve okunabilir arayüzler üretmeye odaklanıyorum. Her projede yeni bir şey öğrenmeye, öğrendiklerimi uygulamaya ve üretim sürecinde gelişmeye devam ediyorum."
         },
         "projects": {
             "title": "Projeler",
