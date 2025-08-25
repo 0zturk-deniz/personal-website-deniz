@@ -23,10 +23,7 @@ function App() {
     error,
   } = useQuery({
     queryKey: ["content"],
-    queryFn: () =>
-      axios
-        .get("https://run.mocky.io/v3/1e4f1a11-1cda-49f4-a85c-631833abcbe6")
-        .then((res) => res.data),
+    queryFn: () => axios.get("/content.json").then((res) => res.data),
   });
 
   if (isLoading) return <div>Loading...</div>;
