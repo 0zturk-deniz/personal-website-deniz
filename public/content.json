@@ -6,7 +6,7 @@
             "modeAlt": "LIGHT MODE"
         },
         "landing": {
-            "title": "I am a Frontend Developer...",
+            "title": "I am a Fullstack Web  Developer...",
             "desc": "...who likes to craft solid and scalable frontend products with great user experiences."
         },
         "profile": {
@@ -73,8 +73,8 @@
             "modeAlt": "AYDINLIK MOD"
         },
         "landing": {
-            "title": "Ben bir Frontend Developer'ım...",
-            "desc": "... ve ölçeklenebilir, kullanıcı dostu arayüzler geliştirmeyi seviyorum."
+            "title": "Ben bir Fullstack Web Developer'ım...",
+            "desc": "... ve ölçeklenebilir, kullanıcı dostu projeler geliştirmeyi seviyorum."
         },
         "profile": {
             "title": "Profil",
