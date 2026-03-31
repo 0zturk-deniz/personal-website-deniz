@@ -6,15 +6,15 @@ export default function Profile({ content }) {
     <section className="dark:bg-[#171043] h-max bg-[#4731D3] py-20 font-inter">
       <Container>
         <div className="flex flex-col">
-          <h1 className="text-5xl font-semibold text-[#CBF281] mb-10">
+          <h1 className="text-4xl sm:text-5xl font-semibold text-[#CBF281] mb-10">
             {content.title}
           </h1>
 
-          <div className="flex flex-col lg:flex-row gap-8 justify-between items-start">
-            <div className="flex flex-col">
+          <div className="flex flex-col lg:flex-row gap-10 justify-between items-start">
+            <div className="flex flex-col w-full sm:w-auto">
               <h2 className="text-2xl text-white mb-4">{content.infoTitle}</h2>
 
-              <div className="grid grid-cols-2 gap-y-4 w-48 text-sm text-white">
+              <div className="grid grid-cols-2 gap-y-4 w-56 text-sm text-white">
                 <p className="text-[#CBF281] font-semibold">
                   {content.info.birthday.label}
                 </p>
@@ -42,7 +42,7 @@ export default function Profile({ content }) {
             <img
               src={denizozturkprofile2}
               alt="deniz ozturk profile photo"
-              className="rounded-xl w-72 aspect-square flex-shrink-0 object-cover"
+              className="rounded-xl w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 flex-shrink-0 object-cover mx-auto lg:mx-0"
             />
 
             <div className="w-full lg:w-72 flex flex-col justify-start">

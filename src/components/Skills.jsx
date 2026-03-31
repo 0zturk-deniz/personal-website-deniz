@@ -11,11 +11,11 @@ export default function Skills() {
     <section className="dark:bg-[#252128] w-full h-max py-20">
       <Container>
         <div className="flex flex-col lg:flex-row gap-10">
-          <h1 className="font-inter text-5xl font-semibold dark:text-[#CBF281] text-[#4731D3] pr-20">
+          <h1 className="font-inter text-4xl sm:text-5xl font-semibold dark:text-[#CBF281] text-[#4731D3] lg:pr-20 mb-6 lg:mb-0">
             Skills
           </h1>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-y-8 gap-x-32">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-y-8 gap-x-10 sm:gap-x-16 lg:gap-x-32">
             {[
               { icon: iconJS, label: "JAVASCRIPT" },
               { icon: iconNode, label: "NODE" },
