@@ -31,11 +31,6 @@ export default function Profile({ content }) {
                 <p className="font-light break-words">
                   {content.info.education.value}
                 </p>
-
-                <p className="text-[#CBF281] font-semibold">
-                  {content.info.role.label}
-                </p>
-                <p className="font-light">{content.info.role.value}</p>
               </div>
             </div>
 

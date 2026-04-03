@@ -29,7 +29,7 @@ function App() {
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>Something went wrong</div>;
 
-  const langData = content[language];
+  const langData = content[language] ?? content.en;
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -41,7 +41,7 @@ function App() {
         content={langData.header}
       />
       <Landing content={langData.landing} />
-      <Projects />
+      <Projects content={langData.projects} />
       <Profile content={langData.profile} />
       <Skills />
       <Footer content={langData.footer} />

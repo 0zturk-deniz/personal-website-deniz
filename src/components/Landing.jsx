@@ -2,13 +2,17 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import denizozturkprofile from "../assets/denizozturkprofile.jpeg";
 import Container from "./Container";
 
+/** Same pt and pb so hero vertical padding is symmetric; value also pins the desktop photo to the bottom padding line. */
+const landingPadY =
+  "pt-[calc(6rem+var(--site-header-height)/2)] pb-[calc(6rem+var(--site-header-height)/2)] md:pt-[calc(10rem+var(--site-header-height)/2)] md:pb-[calc(10rem+var(--site-header-height)/2)]";
+
 export default function Landing({ content }) {
   return (
-    <>
-      <section className="dark:bg-[linear-gradient(to_right,_#171043_0%,_#171043_70%,_#211F0B_70%,_#211F0B_100%)] bg-[linear-gradient(to_right,_#4731D3_0%,_#4731D3_70%,_#CBF281_70%,_#CBF281_100%)] h-max font-inter">
-        <Container>
-          <div className="flex flex-col-reverse md:flex-row items-center md:items-end gap-10 md:gap-16 py-[calc(4rem+var(--site-header-height)/2)] md:py-[calc(9rem+var(--site-header-height)/2)]">
-            <div className="space-y-6 text-center md:text-left">
+    <section className="relative h-max font-inter dark:bg-[linear-gradient(to_right,_#171043_0%,_#171043_70%,_#211F0B_70%,_#211F0B_100%)] bg-[linear-gradient(to_right,_#4731D3_0%,_#4731D3_70%,_#CBF281_70%,_#CBF281_100%)]">
+      <Container>
+        <div className={`relative ${landingPadY}`}>
+          <div className="flex flex-col-reverse gap-10 md:flex-row md:items-end md:gap-0">
+            <div className="z-10 space-y-6 text-center md:max-w-[min(100%,calc(70vw-11rem))] md:pr-4 md:text-left">
               <h1 className="font-inter text-4xl sm:text-5xl font-semibold text-[#CBF281] whitespace-pre-line">
                 {content.title}
               </h1>
@@ -37,16 +41,29 @@ export default function Landing({ content }) {
               </div>
             </div>
 
-            <div className="flex-shrink-0 mb-6 md:mb-0">
+            <div className="mb-6 flex shrink-0 justify-center md:hidden">
               <img
                 src={denizozturkprofile}
                 alt="deniz ozturk profile photo"
-                className="rounded-xl w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 object-cover mx-auto"
+                className="h-48 w-48 rounded-xl object-cover sm:h-64 sm:w-64"
               />
             </div>
           </div>
-        </Container>
-      </section>
-    </>
+        </div>
+      </Container>
+
+      {/* Desktop: photo center on viewport 70% line (matches gradient); independent of text length */}
+      <div
+        className="pointer-events-none absolute left-[70%] z-20 hidden -translate-x-1/2 md:block md:bottom-[calc(10rem+var(--site-header-height)/2)]"
+      >
+        <div className="pointer-events-auto">
+          <img
+            src={denizozturkprofile}
+            alt="deniz ozturk profile photo"
+            className="h-64 w-64 rounded-xl object-cover shadow-lg lg:h-80 lg:w-80"
+          />
+        </div>
+      </div>
+    </section>
   );
 }

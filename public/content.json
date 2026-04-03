@@ -1,130 +1,364 @@
 {
-    "en": {
-        "header": {
-            "langToggle": "TÜRKÇE'YE GEÇ",
-            "mode": "DARK MODE",
-            "modeAlt": "LIGHT MODE"
-        },
-        "landing": {
-            "title": "I am a fullstack \n Web and Mobile Developer...",
-            "desc": "...who likes to craft solid and scalable web and mobile products with great user experiences."
-        },
-        "profile": {
-            "title": "Profile",
-            "infoTitle": "Basic Information",
-            "info": {
-                "birthday": {
-                  "label": "Birthday",
-                  "value": "14.03.1990"
-                },
-                "residency": {
-                 "label": "Residency",
-                  "value": "Istanbul"
-                },
-                "education": {
-                  "label": "Education",
-                  "value": "Mimar Sinan Fine Arts University Urban Planning Master's, 2018"
-                },
-                "role": {
-                  "label": "Preferred Role",
-                  "value": "Frontend, UI, Backend"
-                }
-              },
-            "aboutTitle": "About Me",
-            "aboutDesc": "After working in spatial design and user experience for years, I decided to integrate this background into software development. I'm currently focusing on HTML, CSS, JavaScript, and React, building clean, user-centered interfaces with an eye for design principles. My goal is to continuously learn, apply best practices, and grow through hands-on projects in frontend development."
-        },
-        "projects": {
-            "title": "Projects",
-            "list": [
-                {
-                       "id": 1,
-                       "title": "Pizza Project",
-                       "desc":  "A customizable cookie plugin built with vanilla JS, SCSS and Parcel Bundler.",
-                       "image": "/images/projects1.jpg",
-                       "tags": ["react", "redux", "vercel"],
-                       "links": {
-                           "site": "/",
-                           "github":"/"
-                       }
-                   },
-                   {
-                       "id": 2,
-                       "title": "Portfolio Website",
-                       "desc":  "A customizable cookie plugin built with vanilla JS, SCSS and Parcel Bundler.",
-                       "image": "/images/projects2.jpg",
-                       "tags": ["react", "redux", "vercel"],
-                       "links": {
-                           "site": "/",
-                           "github":"/"
-                       }
-                   }
-           ]
-        },
-        "footer": {
-            "title": "Send me a message!",
-            "desc": "Got a question or proposal, or just want to say hello? Go ahead.",
-            "email": "ddeniz.ozturkk@gmail.com"
-        }
+  "en": {
+    "header": {
+      "langToggle": "TÜRKÇE'YE GEÇ",
+      "mode": "DARK MODE",
+      "modeAlt": "LIGHT MODE"
     },
-    "tr": {
-        "header": {
-            "langToggle": "SWITCH TO ENGLISH",
-            "mode": "KARANLIK MOD",
-            "modeAlt": "AYDINLIK MOD"
+    "landing": {
+      "title": "I am a fullstack \n Web and Mobile Developer...",
+      "desc": "...who likes to craft solid and scalable web and mobile products with great user experiences."
+    },
+    "profile": {
+      "title": "Profile",
+      "infoTitle": "Basic Information",
+      "info": {
+        "birthday": {
+          "label": "Birthday",
+          "value": "14.03.1990"
         },
-        "landing": {
-            "title": "Ben bir fullstack \n Web ve Mobil Developer'ım...",
-            "desc": "... ve ölçeklenebilir, kullanıcı dostu web ve mobil uygulamalar geliştirmeyi seviyorum."
+        "residency": {
+          "label": "Residency",
+          "value": "Istanbul"
         },
-        "profile": {
-            "title": "Profil",
-            "infoTitle": "Temel Bilgiler",
-            "info": {
-                "birthday": {
-                  "label": "Doğum Tarihi",
-                  "value": "14.03.1990"
-                },
-                "residency": {
-                  "label": "İkamet",
-                  "value": "İstanbul"
-                },
-                "education": {
-                  "label": "Eğitim",
-                  "value": "Mimar Sinan Güzel Sanatlar Üniversitesi Şehir Planlama Yüksek Lisansı, 2018"
-                },
-                "role": {
-                  "label": "Tercih Edilen Rol",
-                  "value": "Frontend, UI, Tester"
-                }
-              },
-            "aboutTitle": "Hakkımda",
-            "aboutDesc": "Mekân ve kullanıcı deneyimi üzerine çalıştığım yılların ardından, bu deneyimi yazılımla birleştirmeye karar verdim. Şu anda HTML, CSS, JavaScript ve React üzerine yoğunlaşarak frontend geliştirme alanında kendimi geliştiriyorum. Tasarım prensiplerine hâkimiyetimi kodlamaya taşıyor, kullanıcı odaklı, temiz ve okunabilir arayüzler üretmeye odaklanıyorum. Her projede yeni bir şey öğrenmeye, öğrendiklerimi uygulamaya ve üretim sürecinde gelişmeye devam ediyorum."
-        },
-        "projects": {
-            "title": "Projeler",
-            "list": [
-                {
-                    "id": 1,
-                    "title": "Pizza Projesi",
-                    "desc": "Vanilla JS, SCSS ve Parcel kullanılarak oluşturulmuş özelleştirilebilir çerez eklentisi.",
-                    "image": "/images/projects1.jpg",
-                    "tags": ["react", "redux", "vercel"],
-                    "links": { "site": "/", "github": "/" }
-                  },
-                  {
-                    "id": 2,
-                    "title": "Portfolyo Sitesi",
-                    "desc": "Karanlık mod ve çok dilli desteğe sahip kişisel responsive web sitesi.",
-                    "image": "/images/projects2.jpg",
-                    "tags": ["react", "redux", "vercel"],
-                    "links": { "site": "/", "github": "/" }
-                  }
-            ]
-        },
-        "footer": {
-            "title": "Bana bir mesaj gönder!",
-            "desc": "Bir sorunuz ya da öneriniz mi var? Veya sadece merhaba demek mi istediniz? Buyrun.",
-            "email": "ddeniz.ozturkk@gmail.com"
+        "education": {
+          "label": "Education",
+          "value": "Mimar Sinan Fine Arts University Urban Planning Master's, 2018"
         }
+      },
+      "aboutTitle": "About Me",
+      "aboutDesc": "After working in spatial design and user experience for years, I decided to integrate this background into software development. I'm currently focusing on HTML, CSS, JavaScript, and React, building clean, user-centered interfaces with an eye for design principles. My goal is to continuously learn, apply best practices, and grow through hands-on projects in frontend development."
+    },
+    "projects": {
+      "title": "Projects",
+      "intro": "A selection of projects I've worked on so far. Use the tabs to explore what I built, the challenges I faced, and what I learned from each experience.",
+      "labels": {
+        "techStack": "Tech Stack",
+        "features": "Features",
+        "challenges": "Challenges",
+        "learnings": "Learnings",
+        "links": "Links",
+        "live": "Live",
+        "github": "Github",
+        "screenshots": "Screenshots"
+      },
+      "items": [
+        {
+          "id": "personal-site",
+          "title": "Personal Website",
+          "subtitle": "Portfolio & personal branding website",
+          "description": "",
+          "techStack": ["React", "Vite", "Tailwind CSS"],
+          "features": [
+            "Single-page portfolio with smooth scrolling layout.",
+            "Dark/Light mode toggle with local storage.",
+            "Multi-language support (TR / EN) with dynamic content."
+          ],
+          "challenges": [
+            "Designing a layout that works well on all screen sizes.",
+            "Keeping the design minimal while still showing enough information."
+          ],
+          "learnings": [
+            "Improved skills in responsive UI design.",
+            "Learned how to organize content for personal branding."
+          ],
+          "screenshots": [],
+          "links": { "live": "#", "github": "https://github.com/0zturk-deniz/personal-website-deniz" }
+        },
+        {
+          "id": "eldes",
+          "title": "Eldes Website",
+          "subtitle": "Corporate marketing website",
+          "description": "",
+          "techStack": ["React", "Tailwind CSS"],
+          "features": [
+            "Marketing-focused landing pages for product and solutions.",
+            "Reusable component structure for sections and call-to-actions.",
+            "SEO-friendly, accessible and fast-loading pages."
+          ],
+          "challenges": [
+            "Balancing corporate brand guidelines with modern UI patterns.",
+            "Managing content-heavy sections without overwhelming the user."
+          ],
+          "learnings": [
+            "Experience working with real product copy and brand rules.",
+            "Stronger understanding of typography and spacing in marketing sites."
+          ],
+          "screenshots": [],
+          "links": {
+            "live": "https://eldes.com.tr/",
+            "github": "https://github.com/0zturk-deniz/eldes-website-showcase"
+          }
+        },
+        {
+          "id": "ecommerce",
+          "title": "E-commerce Web App",
+          "subtitle": "Modern online store experience",
+          "description": "",
+          "techStack": ["React", "Vite", "Tailwind CSS"],
+          "features": [
+            "Product listing and detail pages optimized for conversions.",
+            "Shopping cart and checkout flow designed for a smooth experience.",
+            "Responsive layout that works well across mobile and desktop."
+          ],
+          "challenges": [
+            "Designing flows that stay simple while handling many edge cases.",
+            "Keeping performance high even with image-heavy pages."
+          ],
+          "learnings": [
+            "Deeper understanding of e-commerce UX patterns.",
+            "Improved skills in structuring data-heavy interfaces."
+          ],
+          "screenshots": [],
+          "links": { "live": "#", "github": "#" }
+        },
+        {
+          "id": "b",
+          "title": "B-Management Mobile Development",
+          "subtitle": "Mobile app for construction / project management",
+          "disclaimer": "Disclaimer: Project development is currently suspended by the owner. Limited data and documentation are provided here to maintain confidentiality while showcasing the mobile architecture.",
+          "description": "A comprehensive mobile application developed for the construction industry to streamline project management and resource tracking. I led the mobile development process from scratch, taking the product from a web-only service to a fully functional mobile experience ready for the global market.",
+          "techStack": [
+            "React Native",
+            "TypeScript",
+            "Expo",
+            "Redux Toolkit",
+            "Axios",
+            "App Store Connect",
+            "Google Play Console"
+          ],
+          "features": [
+            "Mobile-first flows for managing tasks and project data.",
+            "Simple, focused navigation optimized for on-the-go usage.",
+            "Reusable UI components shared across multiple screens."
+          ],
+          "challenges": [
+            "Designing flows that are easy to use in the field.",
+            "Adapting layouts to different mobile screen sizes, from an existing web application."
+          ],
+          "learnings": [
+            "Gained experience in mobile design patterns and navigation.",
+            "Improved thinking about offline / low-connection scenarios."
+          ],
+          "screenshots": [
+            "/screenshots/b-1.png",
+            "/screenshots/b-2.png",
+            "/screenshots/b-3.png",
+            "/screenshots/b-4.png",
+            "/screenshots/b-5.png"
+          ],
+          "links": { "live": "#", "github": "#" }
+        },
+        {
+          "id": "w",
+          "title": "W-Network Mobile Development",
+          "subtitle": "Mobile app for HR / work management",
+          "disclaimer": "Disclaimer: Project development is currently suspended by the owner. Limited data and documentation are provided here to maintain confidentiality while showcasing the mobile architecture.",
+          "description": "The mobile counterpart of a professional networking and job matching platform. My role was to translate the core web functionalities into a seamless, high-performance mobile app focused on user engagement and real-time communication.",
+          "techStack": ["React Native", "Redux"],
+          "features": [
+            "Screens for managing jobs, candidates, and workflows.",
+            "Clean UI with clear hierarchy for dense information.",
+            "Global state management tuned for mobile performance."
+          ],
+          "challenges": [
+            "Presenting a lot of data without cluttering the screen.",
+            "Keeping interactions quick and simple for busy users."
+          ],
+          "learnings": [
+            "Deeper understanding of state management in mobile apps.",
+            "Experience designing for productivity-focused tools."
+          ],
+          "screenshots": [],
+          "links": { "live": "#", "github": "#" }
+        }
+      ]
+    },
+    "footer": {
+      "title": "Send me a message!",
+      "desc": "Got a question or proposal, or just want to say hello? Go ahead.",
+      "email": "ddeniz.ozturkk@gmail.com"
     }
+  },
+  "tr": {
+    "header": {
+      "langToggle": "SWITCH TO ENGLISH",
+      "mode": "KARANLIK MOD",
+      "modeAlt": "AYDINLIK MOD"
+    },
+    "landing": {
+      "title": "Ben bir fullstack \n Web ve Mobil Developer'ım...",
+      "desc": "... ve ölçeklenebilir, kullanıcı dostu web ve mobil uygulamalar geliştirmeyi seviyorum."
+    },
+    "profile": {
+      "title": "Profil",
+      "infoTitle": "Temel Bilgiler",
+      "info": {
+        "birthday": {
+          "label": "Doğum Tarihi",
+          "value": "14.03.1990"
+        },
+        "residency": {
+          "label": "İkamet",
+          "value": "İstanbul"
+        },
+        "education": {
+          "label": "Eğitim",
+          "value": "Mimar Sinan Güzel Sanatlar Üniversitesi Şehir Planlama Yüksek Lisansı, 2018"
+        }
+      },
+      "aboutTitle": "Hakkımda",
+      "aboutDesc": "Mekân ve kullanıcı deneyimi üzerine çalıştığım yılların ardından, bu deneyimi yazılımla birleştirmeye karar verdim. Şu anda HTML, CSS, JavaScript ve React üzerine yoğunlaşarak frontend geliştirme alanında kendimi geliştiriyorum. Tasarım prensiplerine hâkimiyetimi kodlamaya taşıyor, kullanıcı odaklı, temiz ve okunabilir arayüzler üretmeye odaklanıyorum. Her projede yeni bir şey öğrenmeye, öğrendiklerimi uygulamaya ve üretim sürecinde gelişmeye devam ediyorum."
+    },
+    "projects": {
+      "title": "Projeler",
+      "intro": "Şu ana kadar üzerinde çalıştığım projelerden bir seçki. Sekmeleri kullanarak neler geliştirdiğimi, karşılaştığım zorlukları ve her deneyimden neler öğrendiğimi keşfedebilirsiniz.",
+      "labels": {
+        "techStack": "Teknoloji",
+        "features": "Özellikler",
+        "challenges": "Zorluklar",
+        "learnings": "Öğrendiklerim",
+        "links": "Bağlantılar",
+        "live": "Canlı",
+        "github": "Github",
+        "screenshots": "Ekran görüntüleri"
+      },
+      "items": [
+        {
+          "id": "personal-site",
+          "title": "Kişisel Web Sitesi",
+          "subtitle": "Portfolyo ve kişisel marka sitesi",
+          "description": "",
+          "techStack": ["React", "Vite", "Tailwind CSS"],
+          "features": [
+            "Akıcı kaydırmalı tek sayfalık portfolyo düzeni.",
+            "Yerel depolama ile açık / koyu mod geçişi.",
+            "Dinamik içerikle çok dilli destek (TR / EN)."
+          ],
+          "challenges": [
+            "Tüm ekran boyutlarında iyi çalışan bir düzen tasarlamak.",
+            "Yeterli bilgiyi gösterirken arayüzü sade tutmak."
+          ],
+          "learnings": [
+            "Duyarlı (responsive) arayüz tasarımında gelişim.",
+            "Kişisel marka için içerik düzenlemeyi öğrenmek."
+          ],
+          "screenshots": [],
+          "links": { "live": "#", "github": "https://github.com/0zturk-deniz/personal-website-deniz" }
+        },
+        {
+          "id": "eldes",
+          "title": "Eldes Web Sitesi",
+          "subtitle": "Kurumsal pazarlama web sitesi",
+          "description": "",
+          "techStack": ["React", "Tailwind CSS"],
+          "features": [
+            "Ürün ve çözümler için pazarlama odaklı açılış sayfaları.",
+            "Bölümler ve çağrı aksiyonları için yeniden kullanılabilir yapı.",
+            "SEO dostu, erişilebilir ve hızlı yüklenen sayfalar."
+          ],
+          "challenges": [
+            "Kurumsal marka kuralları ile modern arayüz kalıplarını dengelemek.",
+            "İçerik yoğun bölümleri kullanıcıyı bunaltmadan sunmak."
+          ],
+          "learnings": [
+            "Gerçek ürün metinleri ve marka kurallarıyla çalışma deneyimi.",
+            "Pazarlama sitelerinde tipografi ve boşluk kullanımında güçlenme."
+          ],
+          "screenshots": [],
+          "links": {
+            "live": "https://eldes.com.tr/",
+            "github": "https://github.com/0zturk-deniz/eldes-website-showcase"
+          }
+        },
+        {
+          "id": "ecommerce",
+          "title": "E-ticaret Web Uygulaması",
+          "subtitle": "Modern çevrimiçi mağaza deneyimi",
+          "description": "",
+          "techStack": ["React", "Vite", "Tailwind CSS"],
+          "features": [
+            "Dönüşüm odaklı ürün listeleme ve detay sayfaları.",
+            "Akıcı bir deneyim için sepet ve ödeme akışı.",
+            "Mobil ve masaüstünde uyumlu duyarlı düzen."
+          ],
+          "challenges": [
+            "Çok sayıda uç durumu yönetirken akışları sade tutmak.",
+            "Görsel ağırlıklı sayfalarda performansı korumak."
+          ],
+          "learnings": [
+            "E-ticaret UX kalıplarına daha iyi hakimiyet.",
+            "Veri yoğun arayüzleri yapılandırma becerisi."
+          ],
+          "screenshots": [],
+          "links": { "live": "#", "github": "#" }
+        },
+        {
+          "id": "b",
+          "title": "B-Management Mobil Geliştirme",
+          "subtitle": "İnşaat / proje yönetimi için mobil uygulama",
+          "disclaimer": "Bilgilendirme: Proje geliştirme süreci, ürün sahibi tarafından stratejik nedenlerle askıya alınmıştır. Gizlilik protokollerine ve fikri mülkiyet haklarına duyulan saygı gereği; burada yalnızca mobil mimariyi ve teknik yetkinlikleri sergilemek adına kısıtlı bilgi ve dokümantasyon paylaşılmaktadır.",
+          "description": "İnşaat sektörü için proje yönetimini ve kaynak takibini kolaylaştıran kapsamlı bir mobil uygulama. Mobil geliştirme sürecini sıfırdan yönettim; ürünü yalnızca web servisinden küresel pazara hazır tam işlevli bir mobil deneyime taşıdım.",
+          "techStack": [
+            "React Native",
+            "TypeScript",
+            "Expo",
+            "Redux Toolkit",
+            "Axios",
+            "App Store Connect",
+            "Google Play Console"
+          ],
+          "features": [
+            "Görev ve proje verilerini yönetmek için mobil öncelikli akışlar.",
+            "Sahada kullanıma uygun sade ve odaklı gezinme.",
+            "Birden fazla ekranda paylaşılan yeniden kullanılabilir bileşenler."
+          ],
+          "challenges": [
+            "Sahada kolay kullanılabilen akışlar tasarlamak.",
+            "Mevcut web uygulamasından farklı mobil ekran boyutlarına uyum sağlamak."
+          ],
+          "learnings": [
+            "Mobil tasarım kalıpları ve gezinme konusunda deneyim.",
+            "Çevrimdışı / düşük bağlantı senaryolarını düşünme."
+          ],
+          "screenshots": [
+            "/screenshots/b-1.png",
+            "/screenshots/b-2.png",
+            "/screenshots/b-3.png",
+            "/screenshots/b-4.png",
+            "/screenshots/b-5.png"
+          ],
+          "links": { "live": "#", "github": "#" }
+        },
+        {
+          "id": "w",
+          "title": "W-Network Mobil Geliştirme",
+          "subtitle": "İK / iş yönetimi için mobil uygulama",
+          "disclaimer": "Bilgilendirme: Proje geliştirme süreci, ürün sahibi tarafından stratejik nedenlerle askıya alınmıştır. Gizlilik protokollerine ve fikri mülkiyet haklarına duyulan saygı gereği; burada yalnızca mobil mimariyi ve teknik yetkinlikleri sergilemek adına kısıtlı bilgi ve dokümantasyon paylaşılmaktadır.",
+          "description": "Profesyonel ağ ve iş eşleştirme platformunun mobil karşılığı. Rolüm, temel web işlevlerini kullanıcı etkileşimi ve gerçek zamanlı iletişime odaklanan sorunsuz, yüksek performanslı bir mobil uygulamaya aktarmaktı.",
+          "techStack": ["React Native", "Redux"],
+          "features": [
+            "İş ilanları, adaylar ve iş akışlarını yönetmek için ekranlar.",
+            "Yoğun bilgi için net hiyerarşili sade arayüz.",
+            "Mobil performansa göre ayarlanmış global durum yönetimi."
+          ],
+          "challenges": [
+            "Ekranı kalabalık etmeden çok veri sunmak.",
+            "Yoğun kullanıcılar için etkileşimleri hızlı ve sade tutmak."
+          ],
+          "learnings": [
+            "Mobil uygulamalarda durum yönetimine daha derin bakış.",
+            "Verimlilik odaklı araçlar tasarlamak."
+          ],
+          "screenshots": [],
+          "links": { "live": "#", "github": "#" }
+        }
+      ]
+    },
+    "footer": {
+      "title": "Bana bir mesaj gönder!",
+      "desc": "Bir sorunuz ya da öneriniz mi var? Veya sadece merhaba demek mi istediniz? Buyrun.",
+      "email": "ddeniz.ozturkk@gmail.com"
+    }
+  }
 }
