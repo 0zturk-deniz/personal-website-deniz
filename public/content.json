@@ -175,9 +175,9 @@
       ]
     },
     "footer": {
-      "title": "Send me a message!",
-      "desc": "Got a question or proposal, or just want to say hello? Go ahead.",
-      "email": "ddeniz.ozturkk@gmail.com"
+      "desc": "To learn more about me or access my up-to-date CV:",
+      "emailAria": "Send email",
+      "cvAria": "Open CV in the browser"
     }
   },
   "tr": {
@@ -356,9 +356,9 @@
       ]
     },
     "footer": {
-      "title": "Bana bir mesaj gönder!",
-      "desc": "Bir sorunuz ya da öneriniz mi var? Veya sadece merhaba demek mi istediniz? Buyrun.",
-      "email": "ddeniz.ozturkk@gmail.com"
+      "desc": "Hakkımda daha fazla bilgi almak veya güncel özgeçmişime ulaşmak için:",
+      "emailAria": "E-posta gönder",
+      "cvAria": "Özgeçmişi tarayıcıda aç"
     }
   }
 }
