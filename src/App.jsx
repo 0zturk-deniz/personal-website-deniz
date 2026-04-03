@@ -41,9 +41,9 @@ function App() {
         content={langData.header}
       />
       <Landing content={langData.landing} />
-      <Skills />
+      <Projects />
       <Profile content={langData.profile} />
-      <Projects content={langData.projects} />
+      <Skills />
       <Footer content={langData.footer} />
     </div>
   );

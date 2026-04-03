@@ -9,8 +9,8 @@ export const content = {
             modeAlt: "LIGHT MODE",
         },
         landing: {
-            title: "I am a Frontend Developer...",
-            desc: "...who likes to craft solid and scalable frontend products with great user experiences.",
+            title: "I am a fullstack \n Web and Mobile Developer...",
+            desc: "...who likes to craft solid and scalable web and mobile products with great user experiences.",
         },
         profile: {
             title: "Profile",
@@ -76,8 +76,8 @@ export const content = {
             modeAlt: "AYDINLIK MOD",
         },
         landing: {
-            title: "Ben bir Frontend Developer'ım...",
-            desc: "... ve ölçeklenebilir, kullanıcı dostu arayüzler geliştirmeyi seviyorum.",
+            title: "Ben bir fullstack \n Web ve Mobil Developer'ım...",
+            desc: "... ve ölçeklenebilir, kullanıcı dostu web ve mobil uygulamalar geliştirmeyi seviyorum.",
         },
         profile: {
             title: "Profil",

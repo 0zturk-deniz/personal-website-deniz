@@ -8,8 +8,8 @@ export default function Header({
   content,
 }) {
   return (
-    <header className="dark:bg-[linear-gradient(to_right,_#171043_0%,_#171043_70%,_#211F0B_70%,_#211F0B_100%)] bg-[linear-gradient(to_right,_#4731D3_0%,_#4731D3_70%,_#CBF281_70%,_#CBF281_100%)] font-inter">
-      <Container>
+    <header className="relative z-20 overflow-hidden border-b border-white/20 font-inter shadow-[0_14px_44px_-12px_rgba(23,16,67,0.42)] ring-1 ring-inset ring-white/10 dark:border-white/10 dark:shadow-[0_16px_48px_-10px_rgba(0,0,0,0.65)] dark:ring-white/5 bg-[linear-gradient(90deg,#4731D3_0%,#5F4FD8_32%,#8FAF9A_66%,#CBF281_100%)] dark:bg-[linear-gradient(90deg,#171043_0%,#1E1A52_48%,#211F0B_100%)] before:pointer-events-none before:absolute before:inset-0 before:bg-gradient-to-b before:from-white/[0.2] before:to-transparent dark:before:from-white/[0.08]">
+      <Container className="relative z-10">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0 py-12">
           <p className="font-semibold text-2xl md:text-3xl text-[#CBF281]">
             deniz

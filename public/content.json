@@ -6,8 +6,8 @@
             "modeAlt": "LIGHT MODE"
         },
         "landing": {
-            "title": "I am a Fullstack Web  Developer...",
-            "desc": "...who likes to craft solid and scalable frontend products with great user experiences."
+            "title": "I am a fullstack \n Web and Mobile Developer...",
+            "desc": "...who likes to craft solid and scalable web and mobile products with great user experiences."
         },
         "profile": {
             "title": "Profile",
@@ -33,7 +33,7 @@
             "aboutTitle": "About Me",
             "aboutDesc": "After working in spatial design and user experience for years, I decided to integrate this background into software development. I'm currently focusing on HTML, CSS, JavaScript, and React, building clean, user-centered interfaces with an eye for design principles. My goal is to continuously learn, apply best practices, and grow through hands-on projects in frontend development."
         },
-       " projects": {
+        "projects": {
             "title": "Projects",
             "list": [
                 {
@@ -73,8 +73,8 @@
             "modeAlt": "AYDINLIK MOD"
         },
         "landing": {
-            "title": "Ben bir Fullstack Web Developer'ım...",
-            "desc": "... ve ölçeklenebilir, kullanıcı dostu projeler geliştirmeyi seviyorum."
+            "title": "Ben bir fullstack \n Web ve Mobil Developer'ım...",
+            "desc": "... ve ölçeklenebilir, kullanıcı dostu web ve mobil uygulamalar geliştirmeyi seviyorum."
         },
         "profile": {
             "title": "Profil",
