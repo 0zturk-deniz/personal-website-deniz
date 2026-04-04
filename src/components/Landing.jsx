@@ -8,7 +8,9 @@ const landingPadY =
 
 export default function Landing({ content }) {
   return (
-    <section className="relative h-max font-inter dark:bg-[linear-gradient(to_right,_#171043_0%,_#171043_70%,_#211F0B_70%,_#211F0B_100%)] bg-[linear-gradient(to_right,_#4731D3_0%,_#4731D3_70%,_#CBF281_70%,_#CBF281_100%)]">
+    <section
+      className="relative h-max font-inter bg-[#4731D3] dark:bg-[#171043] md:bg-[linear-gradient(to_right,_#4731D3_0%,_#4731D3_70%,_#CBF281_70%,_#CBF281_100%)] md:dark:bg-[linear-gradient(to_right,_#171043_0%,_#171043_70%,_#211F0B_70%,_#211F0B_100%)]"
+    >
       <Container>
         <div className={`relative ${landingPadY}`}>
           <div className="flex flex-col-reverse gap-10 md:flex-row md:items-end md:gap-0">
