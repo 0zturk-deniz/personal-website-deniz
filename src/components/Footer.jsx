@@ -40,7 +40,7 @@ export default function Footer({ content }) {
         </Container>
       </section>
 
-      <footer className="font-inter text-center py-6 dark:bg-[#171043] bg-[#F9FAFB] text-sm text-[#6B7280] dark:text-[#D1D5DB]">
+      <footer className="font-inter text-center py-6 bg-[#4731D3] text-sm text-white dark:bg-[#171043] dark:text-[#D1D5DB]">
         <Container>
           <p>
             ©2026 · Created with VSCode and developed with Cursor, by Deniz
