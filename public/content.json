@@ -27,7 +27,7 @@
         }
       },
       "aboutTitle": "About Me",
-      "aboutDesc": "I am a multidisciplinary Full Stack Developer and UX/UI Designer with a background in Urban Planning. My interest in software development was a natural extension of my experience as a Co-Founder of a civic-tech focused non-profit, where I navigated the challenges of building an organization from the ground up—from legal foundation to digital infrastructure. I spearheaded the digital transformation of our advocacy tools and internal management systems, realizing the immense power of technology in scaling impact. Today, I combine this entrepreneurial mindset and spatial analysis expertise with modern tech stacks like React Native, Expo, Node.js, and PostgreSQL. I am dedicated to building high-impact, data-driven applications that streamline complex workflows and deliver intuitive user experiences."
+      "aboutDesc": "I am a multidisciplinary Full Stack Developer and UX/UI Designer with a background in Urban Planning. My interest in software development was a natural extension of my experience as a Co-Founder of a civic-tech focused non-profit, where I navigated the challenges of building an organization from the ground up—from legal foundation to digital infrastructure. I spearheaded the digital transformation of our advocacy tools and internal management systems, realizing the immense power of technology in scaling impact. \n Today, I combine this entrepreneurial mindset and spatial analysis expertise with modern tech stacks like React Native, Expo, Node.js, and PostgreSQL. I am dedicated to building high-impact, data-driven applications that streamline complex workflows and deliver intuitive user experiences."
     },
     "projects": {
       "title": "Projects",
@@ -234,7 +234,7 @@
         }
       },
       "aboutTitle": "Hakkımda",
-      "aboutDesc": "Mekansal tasarım ve kullanıcı deneyimi alanındaki geçmişimi, bugün yenilikçi ve kullanıcı odaklı çözümler üreten bir Full Stack Developer kimliğiyle birleştiriyorum. Yazılıma olan ilgim, kurucu ortağı olduğum hak temelli bir sivil toplum kuruluşunun tüm kuruluş ve dijital altyapı süreçlerini yönetirken şekillendi. Bir nevi 'civic-tech start-up' mantığıyla ilerlediğimiz bu süreçte; idari işleyişten savunuculuk araçlarına kadar tüm operasyonu dijitale taşıyarak teknolojinin ölçeklenebilir etkisini bizzat deneyimledim. Bu girişimci bakış açısını; JavaScript, React Native, Expo ve Node.js gibi modern teknolojilerle birleştirerek karmaşık ihtiyaçları zarif ve etkili dijital ürünlere dönüştürüyorum. Veri odaklı, temiz kod prensiplerine sahip ve kullanıcıyı merkeze alan uygulamalar geliştirmeye odaklanıyorum."
+      "aboutDesc": "Mekansal tasarım ve kullanıcı deneyimi alanındaki geçmişimi, bugün yenilikçi ve kullanıcı odaklı çözümler üreten bir Full Stack Developer kimliğiyle birleştiriyorum. Yazılıma olan ilgim, kurucu ortağı olduğum hak temelli bir sivil toplum kuruluşunun tüm kuruluş ve dijital altyapı süreçlerini yönetirken şekillendi. Bir nevi 'civic-tech start-up' mantığıyla ilerlediğimiz bu süreçte; idari işleyişten savunuculuk araçlarına kadar tüm operasyonu dijitale taşıyarak teknolojinin ölçeklenebilir etkisini bizzat deneyimledim. \n Bu girişimci bakış açısını; JavaScript, React Native, Expo ve Node.js gibi modern teknolojilerle birleştirerek karmaşık ihtiyaçları zarif ve etkili dijital ürünlere dönüştürüyorum. Veri odaklı, temiz kod prensiplerine sahip ve kullanıcıyı merkeze alan uygulamalar geliştirmeye odaklanıyorum."
     },
     "projects": {
       "title": "Projeler",
