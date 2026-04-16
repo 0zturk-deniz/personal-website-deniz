@@ -10,11 +10,11 @@ export default function Profile({ content }) {
             {content.title}
           </h1>
 
-          <div className="flex flex-col lg:flex-row gap-10 justify-between items-start">
-            <div className="flex flex-col w-full sm:w-auto">
+          <div className="flex flex-col lg:flex-row gap-10 lg:gap-8 xl:gap-10 items-start">
+            <div className="w-full max-w-sm mx-auto lg:mx-0 lg:w-64 lg:shrink-0 min-w-0">
               <h2 className="text-2xl text-white mb-4">{content.infoTitle}</h2>
 
-              <div className="grid grid-cols-2 gap-y-4 w-56 text-sm text-white">
+              <div className="grid grid-cols-2 gap-x-3 gap-y-4 w-full text-sm text-white">
                 <p className="text-[#CBF281] font-semibold">
                   {content.info.birthday.label}
                 </p>
@@ -37,12 +37,12 @@ export default function Profile({ content }) {
             <img
               src={denizozturkprofile2}
               alt="deniz ozturk profile photo"
-              className="rounded-xl w-56 h-56 sm:w-64 sm:h-64 lg:w-72 lg:h-72 flex-shrink-0 object-cover mx-auto lg:mx-0"
+              className="rounded-xl w-56 h-56 sm:w-64 sm:h-64 lg:w-64 lg:h-64 shrink-0 object-cover mx-auto lg:mx-0"
             />
 
-            <div className="w-full lg:w-72 flex flex-col justify-start">
+            <div className="w-full min-w-0 flex-1 flex flex-col">
               <p className="text-2xl text-white mb-4">{content.aboutTitle}</p>
-              <p className="font-light text-white text-justify leading-relaxed">
+              <p className="text-sm font-light text-white text-justify hyphens-auto">
                 {content.aboutDesc}
               </p>
             </div>

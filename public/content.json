@@ -27,7 +27,7 @@
         }
       },
       "aboutTitle": "About Me",
-      "aboutDesc": "After working in spatial design and user experience for years, I decided to integrate this background into software development. I'm currently focusing on HTML, CSS, JavaScript, and React, building clean, user-centered interfaces with an eye for design principles. My goal is to continuously learn, apply best practices, and grow through hands-on projects in frontend development."
+      "aboutDesc": "I am a multidisciplinary Full Stack Developer and UX/UI Designer with a background in Urban Planning. My interest in software development was a natural extension of my experience as a Co-Founder of a civic-tech focused non-profit, where I navigated the challenges of building an organization from the ground up—from legal foundation to digital infrastructure. I spearheaded the digital transformation of our advocacy tools and internal management systems, realizing the immense power of technology in scaling impact. Today, I combine this entrepreneurial mindset and spatial analysis expertise with modern tech stacks like React Native, Expo, Node.js, and PostgreSQL. I am dedicated to building high-impact, data-driven applications that streamline complex workflows and deliver intuitive user experiences."
     },
     "projects": {
       "title": "Projects",
@@ -63,7 +63,33 @@
             "Learned how to organize content for personal branding."
           ],
           "screenshots": [],
-          "links": { "live": "#", "github": "https://github.com/0zturk-deniz/personal-website-deniz" }
+          "links": { "live": "https://www.denizozturk.co/", "github": "https://github.com/0zturk-deniz/personal-website-deniz" }
+        },
+        {
+          "id": "expense-pdf-excel",
+          "title": "PDF Expense to Excel Automation",
+          "subtitle": "Desktop app: bank & card statement PDFs → cumulative Excel",
+          "description": "",
+          "techStack": ["Python", "pdfplumber", "pandas", "openpyxl", "PyYAML", "CustomTkinter"],
+          "features": [
+            "Reads checking-account and credit-card statement PDFs and appends rows to a single running Excel workbook.",
+            "Desktop GUI to pick PDFs, output path, category rules (`rules.yaml`), and processed-files history.",
+            "Keyword-based categorization via YAML rules with a sensible default for unmatched merchants.",
+            "Optional macOS `.app` packaging so the tool runs without a separate Python install."
+          ],
+          "challenges": [
+            "Handling two different bank PDF layouts and keeping parsing resilient to small format changes.",
+            "Turning noisy PDF text into clean, consistent rows for Excel."
+          ],
+          "learnings": [
+            "Practical PDF text extraction and normalization with Python.",
+            "Shipping a small automation as a usable desktop app with clear file inputs and outputs."
+          ],
+          "screenshots": [],
+          "links": {
+            "live": "#",
+            "github": "https://github.com/0zturk-deniz/expense-pdf-to-excel-automation"
+          }
         },
         {
           "id": "eldes",
@@ -208,7 +234,7 @@
         }
       },
       "aboutTitle": "Hakkımda",
-      "aboutDesc": "Mekân ve kullanıcı deneyimi üzerine çalıştığım yılların ardından, bu deneyimi yazılımla birleştirmeye karar verdim. Şu anda HTML, CSS, JavaScript ve React üzerine yoğunlaşarak frontend geliştirme alanında kendimi geliştiriyorum. Tasarım prensiplerine hâkimiyetimi kodlamaya taşıyor, kullanıcı odaklı, temiz ve okunabilir arayüzler üretmeye odaklanıyorum. Her projede yeni bir şey öğrenmeye, öğrendiklerimi uygulamaya ve üretim sürecinde gelişmeye devam ediyorum."
+      "aboutDesc": "Mekansal tasarım ve kullanıcı deneyimi alanındaki geçmişimi, bugün yenilikçi ve kullanıcı odaklı çözümler üreten bir Full Stack Developer kimliğiyle birleştiriyorum. Yazılıma olan ilgim, kurucu ortağı olduğum hak temelli bir sivil toplum kuruluşunun tüm kuruluş ve dijital altyapı süreçlerini yönetirken şekillendi. Bir nevi 'civic-tech start-up' mantığıyla ilerlediğimiz bu süreçte; idari işleyişten savunuculuk araçlarına kadar tüm operasyonu dijitale taşıyarak teknolojinin ölçeklenebilir etkisini bizzat deneyimledim. Bu girişimci bakış açısını; JavaScript, React Native, Expo ve Node.js gibi modern teknolojilerle birleştirerek karmaşık ihtiyaçları zarif ve etkili dijital ürünlere dönüştürüyorum. Veri odaklı, temiz kod prensiplerine sahip ve kullanıcıyı merkeze alan uygulamalar geliştirmeye odaklanıyorum."
     },
     "projects": {
       "title": "Projeler",
@@ -245,6 +271,32 @@
           ],
           "screenshots": [],
           "links": { "live": "#", "github": "https://github.com/0zturk-deniz/personal-website-deniz" }
+        },
+        {
+          "id": "expense-pdf-excel",
+          "title": "PDF Harcama → Excel Otomasyonu",
+          "subtitle": "Masaüstü uygulama: banka ve kart ekstre PDF'lerinden birikimli Excel",
+          "description": "",
+          "techStack": ["Python", "pdfplumber", "pandas", "openpyxl", "PyYAML", "CustomTkinter"],
+          "features": [
+            "Vadesiz hesap özeti ve kredi kartı ekstresi PDF'lerini okuyup tek bir Excel dosyasına satır satır ekler.",
+            "PDF seçimi, çıktı yolu, kategori kuralları (`rules.yaml`) ve işlenen dosya geçmişi için masaüstü arayüz.",
+            "YAML kurallarıyla anahtar kelime tabanlı kategori; eşleşme yoksa varsayılan kategori.",
+            "İsteğe bağlı macOS `.app` paketleme; ayrı Python kurulumu gerektirmeden çalıştırma."
+          ],
+          "challenges": [
+            "İki farklı banka PDF düzenini desteklemek ve küçük format farklarına karşı parse mantığını dayanıklı tutmak.",
+            "Gürültülü PDF metnini Excel için tutarlı satırlara dönüştürmek."
+          ],
+          "learnings": [
+            "Python ile pratik PDF metin çıkarma ve normalizasyon.",
+            "Net dosya girdisi/çıktısı olan küçük bir otomasyonu kullanılabilir masaüstü uygulaması olarak sunmak."
+          ],
+          "screenshots": [],
+          "links": {
+            "live": "#",
+            "github": "https://github.com/0zturk-deniz/expense-pdf-to-excel-automation"
+          }
         },
         {
           "id": "eldes",
