@@ -10,7 +10,7 @@ import Skills from "./components/Skills";
 
 import { useLocalStorage } from "./hooks/useLocalStorage";
 import axios from "axios";
-//import { useEffect, useState } from 'react'
+import { useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 
 function App() {
@@ -25,6 +25,10 @@ function App() {
     queryKey: ["content"],
     queryFn: () => axios.get("/content.json").then((res) => res.data),
   });
+
+  useEffect(() => {
+    document.documentElement.lang = language;
+  }, [language]);
 
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>Something went wrong</div>;
@@ -42,7 +46,7 @@ function App() {
       />
       <Landing content={langData.landing} />
       <Projects content={langData.projects} />
-      <Profile content={langData.profile} />
+      <Profile content={langData.profile} language={language} />
       <Skills />
       <Footer content={langData.footer} />
     </div>

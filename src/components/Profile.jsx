@@ -1,7 +1,7 @@
 import denizozturkprofile2 from "../assets/denizozturkprofile2.jpeg";
 import Container from "./Container";
 
-export default function Profile({ content }) {
+export default function Profile({ content, language = "en" }) {
   return (
     <section className="dark:bg-[#171043] h-max bg-[#4731D3] py-20 font-inter">
       <Container>
@@ -42,7 +42,10 @@ export default function Profile({ content }) {
 
             <div className="w-full min-w-0 flex-1 flex flex-col">
               <p className="text-2xl text-white mb-4">{content.aboutTitle}</p>
-              <p className="text-sm font-light text-white text-justify hyphens-auto">
+              <p
+                lang={language}
+                className="text-sm font-light text-white text-justify hyphens-auto"
+              >
                 {content.aboutDesc}
               </p>
             </div>

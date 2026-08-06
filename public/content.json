@@ -66,6 +66,32 @@
           "links": { "live": "https://www.denizozturk.co/", "github": "https://github.com/0zturk-deniz/personal-website-deniz" }
         },
         {
+          "id": "metis-archive",
+          "title": "Metis Archive",
+          "subtitle": "Semantic search archive for weekly agenda scans",
+          "description": "",
+          "techStack": ["React", "Vite", "Transformers.js", "CLIP", "IndexedDB"],
+          "features": [
+            "Browse weekly agenda scans in a clean SPA — latest week in the hero, older weeks in a thumbnail slider.",
+            "Client-side multilingual CLIP search: find pages by meaning (e.g. “car”, “sea”) without tags or captions.",
+            "Each scan is split into a 2×3 tile grid so small drawings are not lost in a full-page embedding.",
+            "Image embeddings cached in IndexedDB; no backend required for search."
+          ],
+          "challenges": [
+            "Running vision–language search entirely in the browser with acceptable first-load and warm-up time.",
+            "Ranking specific matches over busy/abstract pages that score high for every query (hubness)."
+          ],
+          "learnings": [
+            "Hands-on experience with Transformers.js and multilingual CLIP in a production-shaped SPA.",
+            "Practical embedding tricks: tiling, hubness penalty, and client-side caching."
+          ],
+          "screenshots": [],
+          "links": {
+            "live": "#",
+            "github": "https://github.com/0zturk-deniz/metis-archive"
+          }
+        },
+        {
           "id": "expense-pdf-excel",
           "title": "PDF Expense to Excel Automation",
           "subtitle": "Desktop app: bank & card statement PDFs → cumulative Excel",
@@ -271,6 +297,32 @@
           ],
           "screenshots": [],
           "links": { "live": "#", "github": "https://github.com/0zturk-deniz/personal-website-deniz" }
+        },
+        {
+          "id": "metis-archive",
+          "title": "Metis Archive",
+          "subtitle": "Haftalık ajanda taramaları için anlamsal arama arşivi",
+          "description": "",
+          "techStack": ["React", "Vite", "Transformers.js", "CLIP", "IndexedDB"],
+          "features": [
+            "Haftalık ajanda taramalarını sade bir SPA’da gezinme — en yeni hafta hero’da, eskiler küçük resim kaydırıcısında.",
+            "Tarayıcıda çok dilli CLIP araması: etiket veya açıklama yazmadan anlamla sayfa bulma (ör. “araba”, “deniz”).",
+            "Her tarama 2×3 karo ızgarasına bölünür; küçük çizimler tam sayfa gömülmesinde kaybolmaz.",
+            "Görsel gömüleri IndexedDB’de önbelleğe alınır; arama için sunucu gerekmez."
+          ],
+          "challenges": [
+            "Görsel–dil aramasını tamamen tarayıcıda, kabul edilebilir ilk yükleme ve ısınma süresiyle çalıştırmak.",
+            "Her sorguda yüksek skor alan yoğun/soyut sayfaların üstüne çıkmak (hubness) — spesifik eşleşmeleri öne çıkarmak."
+          ],
+          "learnings": [
+            "Transformers.js ve çok dilli CLIP’i gerçek bir SPA’da kullanma deneyimi.",
+            "Karo bölme, hubness cezası ve istemci tarafı önbellekleme gibi pratik gömü teknikleri."
+          ],
+          "screenshots": [],
+          "links": {
+            "live": "#",
+            "github": "https://github.com/0zturk-deniz/metis-archive"
+          }
         },
         {
           "id": "expense-pdf-excel",
